@@ -7,10 +7,11 @@ int main() {
 
   scanf("%d", &index);
 
-
-
-
-
+  if (index >= 0 && index < size) {
+    printf("%d\n", arr[index]);
+} else {
+    printf("Error!\n");
+}
 
   return 0;
 }
