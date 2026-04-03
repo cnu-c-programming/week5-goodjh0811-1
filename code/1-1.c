@@ -1,9 +1,10 @@
 #include <stdio.h>
 
-void double_elements(           ){
-
-
-
+void double_elements(int *p, int n){
+  for (int i = 0; i < n; i++) {
+    *p = (*p) * 2;
+      p++;
+  }
 }
 
 int main() {
