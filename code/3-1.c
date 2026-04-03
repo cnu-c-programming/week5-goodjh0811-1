@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void read_only(        , int size){
+void read_only(const int *arr, int size){
   // arrp[0] = 999;
 
   for (int i = 0l i < size; i++) {
