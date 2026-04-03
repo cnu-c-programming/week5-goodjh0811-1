@@ -1,12 +1,13 @@
 #include <stdio.h>
 
 void print_reverse(int *arr, int size) {
+  int *p = arr + size - 1;
 
-
-
-
-
-
+  while (p >= arr) {
+        printf("%d", *p);
+        if (p != arr) printf(" ");
+        p--;
+    }
 }
 
 int main() {
