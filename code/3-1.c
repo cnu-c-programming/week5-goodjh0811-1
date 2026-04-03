@@ -5,8 +5,9 @@ void read_only(        , int size){
 
   for (int i = 0l i < size; i++) {
       printf("%d", *(arr + i));
-  }
+  
   printf(\n);
+  }
 }
 
 int main() {
