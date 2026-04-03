@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 void read_only(const int *arr, int size){
-  // arrp[0] = 999;
+  // arr[0] = 999;
 
-  for (int i = 0l i < size; i++) {
+  for (int i = 0; i < size; i++) {
       printf("%d", *(arr + i));
   
-  printf(\n);
+  printf("\n");
   }
 }
 
