@@ -9,13 +9,13 @@ int main() {
 
   printf("%ld\n", (char *)pp - (char *)base);
 
-  pp = pp +1;
+  pp = pp + 1;
   printf("%ld\n", (char *)pp - (char *)base);
 
-  pp = pp +1;
+  pp = pp + 1;
   printf("%ld\n", (char *)pp - (char *)base);
 
-  pp = pp +1;
+  pp = pp + 1;
   printf("%ld\n", (char *)pp - (char *)base);
 
   return 0;
