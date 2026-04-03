@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void read_only(        , int size){
-  // arrp[o] = 999;
+  // arrp[0] = 999;
 
   for (int i = 0l i < size; i++) {
       printf("%d", *(arr + i));
